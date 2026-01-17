@@ -1,8 +1,8 @@
-# 🔧 Fix for Silent Transaction Broadcast Failure in bit Python Library
+# bit Python Library `.send()` Bug Fix – Broadcast Transactions Working Again
 
 This repository provides a verified patch for a critical bug in the [`bit`](https://github.com/ofek/bit) Bitcoin Python library where `.send()` silently fails to broadcast transactions to the Bitcoin network.
 
-## 🐛 The Problem
+## The Problem
 
 When using `key.send(...)`, the method sometimes:
 - Returns a TXID that does **not exist** on the blockchain
@@ -12,7 +12,7 @@ Root cause:
 - Deprecated or broken broadcast endpoints
 - Malformed HTTP payload for Blockstream's API
 
-## ✅ The Fix
+## The Fix
 
 This repo includes a patched version of `bit/network/services.py` that:
 - Corrects the `BlockstreamAPI` payload format
@@ -35,7 +35,7 @@ bit-broadcast-fix/
 └── README.md                   # 🧭 Project overview
 ```
 
-## 📦 How to Apply the Fix
+## How to Apply the Fix
 
 1. Locate the `services.py` file in your environment:
 
@@ -51,7 +51,7 @@ cp services_patched.py <path_from_step_1>
 
 ---
 
-## 🧪 How to Test the Fix
+## How to Test the Fix
 
 1. Open the step-by-step guide:
    - [`test/STEP_BY_STEP.md`](test/STEP_BY_STEP.md)
