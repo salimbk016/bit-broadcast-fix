@@ -83,6 +83,6 @@ cp services_patched.py <path_from_step_1>
 
 ## 🙋‍♂️ Author
 
-Salim Ben Khadija  
+Liosna  
 Created January 2026  
 Open for collaboration or integration into the official repository.

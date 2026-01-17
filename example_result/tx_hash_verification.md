@@ -69,5 +69,3 @@ python3 bit_wallet.py --testnet balance cNYhtSUvmrbmi4CWRBK525uu4oEGqZ3bjEUYZJGj
 ---
 
 This confirms that the patched version of `bit.network.services` successfully broadcasts transactions using `.send()`.
-
-🛠 Verified by: **Salim Ben Khadija**

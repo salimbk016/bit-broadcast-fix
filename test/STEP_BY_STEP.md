@@ -95,5 +95,3 @@ If something fails, double-check:
 - You replaced the correct file
 - The faucet confirmed the transfer
 - You used the correct WIF and address
-
-Patch and documentation by: **Salim Ben Khadija**
