@@ -76,7 +76,7 @@ cp services_patched.py <path_from_step_1>
 
 ## 📄 Resources
 
-- 📘 [Technical Report PDF](report/Technical_Report.pdf)
+- 📘 [Technical Report PDF](report/Technical-Report.pdf)
 - 💬 [Stack Overflow Answer](https://stackoverflow.com/questions/74153386/...)
 - ✅ [Transaction Proof](example_result/tx_hash_verification.md)
 - 🧭 [Usage Guide](test/STEP_BY_STEP.md)
