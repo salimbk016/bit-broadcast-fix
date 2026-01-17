@@ -1,0 +1,12 @@
+Patch License – Public Domain Dedication
+
+This repository contains a modified version of the `services.py` file from the
+`bit` Python library. The purpose of this patch is to fix a known broadcast
+failure that was not addressed in the official repository.
+
+You are free to use, copy, modify, and share this patch for any purpose,
+without restriction.
+
+No warranty is provided. Use at your own risk.
+
+— Salim Ben Khadija, January 2026
